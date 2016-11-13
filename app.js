@@ -32,7 +32,8 @@
 			var blue = bVal.toString(16);
 
 			var hexa = ('#' + red + green + blue).toUpperCase();
-			$('#Hexa').html(hexa);
+			$('#hexa').html(hexa);
+			console.log(hexa);
 
 			
 		},
